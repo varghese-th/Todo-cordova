@@ -1,0 +1,31 @@
+<div id="search-project-wrapper">
+    <div id="project-results">
+        <div class="project">
+            <div> 
+                <strong>Project name: </strong> 
+                <span class="project-name"></span> 
+            </div>  
+            <div> 
+                <strong>Company: </strong> 
+                <span class="project-company"></span> 
+            </div>    
+            <div class="project-description-wrapper"> 
+                <strong>Description: </strong>  
+               <div class="project-description"></div>  
+            </div> 
+            <br><button id="delete-project" type="submit">delete</button>
+        </div>
+    </div>
+</div>
+<!-- 
+            <script>
+                db.transaction(function(tx) {
+                    name = 'hello';
+                var executeQuery = "DELETE FROM projects where name=?";
+ tx.executeSql(executeQuery, [name],
+ //On Success
+ function(tx, result) {alert('Delete successfully');},
+ //On Error
+ function(error){alert('Something went Wrong');});
+ });
+            </script> -->
