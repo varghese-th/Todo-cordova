@@ -69,21 +69,35 @@ footer {
 .project {
 	margin-bottom:20px;
 	padding: 10px;
-	background:#fff;
+	background:#D5D8DC;
 	font-family:"Open Sans", Helvetica, Arial;
+	border-radius: 15px;
 }
 .project span.project-name {
-	font-size: 1.2em;
+	font-size: 16px;
 	font-weight:bold;
-	padding-bottom:10px;
-	margin-bottom:10px;
+/*	padding-bottom:10px;
+	margin-bottom:10px;*/
 	border-bottom: 1px solid #ddd;
 	width:100%;
 	display:block;
 }
 
+.project span.project-company {
+	font-size: 10px;
+	width:100%;
+	display:block;
+}
+
+
 .project > .project-description-wrapper {
 	margin-top: 5px;
+	font-size: 12px;
+}
+
+.project button {
+	/*margin: 0;padding: 0;*/
+	font-size: 10px;
 }
 
 .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
